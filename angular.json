@@ -30,13 +30,12 @@
               },
               {
                 "glob": "**/*",
-                "input": "node_modules/monaco-editor",
+                "input": "node_modules/monaco-editor/esm",
                 "output": "/assets/monaco/"
               }
             ],
             "styles": [
-              "src/styles.css",
-              "node_modules/monaco-editor/min/vs/editor/editor.main.css"
+              "src/styles.css"
             ],
             "polyfills": [
               "src/polyfill.ts"

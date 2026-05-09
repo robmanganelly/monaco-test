@@ -12,7 +12,7 @@ declare global {
 window.MonacoEnvironment = {
   getWorkerUrl: (_moduleId: string, label: string) => {
     // Determine the base path (useful if your app is hosted in a subfolder)
-    const base = './assets/monaco/esm/vs';
+    const base = './assets/monaco/vs';
 
     switch (label) {
       case 'json':
