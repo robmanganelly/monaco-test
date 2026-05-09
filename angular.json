@@ -39,7 +39,7 @@
               "node_modules/monaco-editor/min/vs/editor/editor.main.css"
             ],
             "polyfills": [
-              "src/polifill.ts"
+              "src/polyfill.ts"
             ]
           },
           "configurations": {
